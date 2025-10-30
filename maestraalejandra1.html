@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día de Muertos</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #eccea1, #dd700a);
+            font-family: "Times New Roman", serif;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 30px;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: -10px;
+        }
+        nav {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+        }
+        nav button {
+            color: rgb(10, 7, 7);
+            background-color: #fc9815;
+            border: none;
+            font-weight: bold;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav button:hover {
+            background-color: #f34d1b;
+        }
+        section {
+            padding: 40px;
+        }
+        p {
+            text-align: justify;
+            max-width: 900px;
+            margin: 20px auto;
+            line-height: 1.6em;
+        }
+        img {
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        #catrina img {
+            width: 250px;
+        }
+        #diamuertos img {
+            width: 300px;
+            margin: 10px;
+        }
+        /* NUEVO: estilo para los enlaces */
+        a {
+            color: #b02e0c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* NUEVO: imágenes de lugares turísticos */
+        .lugar-img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Día de Muertos</h1>
+        <h2>Tradiciones Mexicanas</h2>
+    </header>
+
+    <nav>
+        <button onclick="location.href='#catrina'">Origen de la Catrina</button>
+        <button onclick="location.href='#diamuertos'">Día de Muertos</button>
+        <!-- Enlace interno nuevo -->
+        <button onclick="location.href='#lugares'">Lugares Turísticos</button>
+    </nav>
+
+    <!-- Sección 1: Origen de la Catrina -->
+    <section id="catrina">
+        <h2>Origen de la Catrina</h2>
+        <p><strong>La Catrina</strong> tiene su origen en el artista mexicano <strong>José Guadalupe Posada</strong>,
+        quien la creó alrededor de 1910 como "La Calavera Garbancera" como una crítica social a las clases altas de la época.
+        El personaje evolucionó cuando <strong>Diego Rivera</strong> lo pintó en su mural
+        "<em>Sueño de una tarde dominical en la Alameda Central</em>", dándole el atuendo elegante que conocemos hoy
+        y el nombre de "La Catrina".</p>
+
+        <p>La figura de la Catrina representa una poderosa metáfora sobre la muerte y la igualdad social.
+        Posada quiso mostrar que, sin importar el dinero o la posición, todos somos iguales ante la muerte.
+        Su esqueleto, ataviado con un sombrero europeo y ropa elegante, ridiculiza las aspiraciones de las clases altas mexicanas
+        que intentaban imitar las costumbres europeas de la época por encima de sus raíces indígenas.</p>
+
+        <p>Con el paso de los años, <strong>La Catrina</strong> se convirtió en un símbolo central del <strong>Día de Muertos</strong>.
+        Hoy en día, su imagen aparece en desfiles, altares, artesanías, maquillaje y vestimentas tradicionales.
+        Es considerada una representación artística de la muerte con elegancia y respeto, un recordatorio de que la muerte no es
+        el fin, sino una continuación del ciclo de la vida, celebrada con color, música y tradición en todo México.</p>
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKGze7NfC3YwvFpf9NliDTJIyN1qySVNISx2ZxK0rxKYAoh5vfEaUfXBEBq1myI1r52E&usqp=CAU" alt="La Catrina">
+    </section>
+
+    <!-- Sección 2: Día de Muertos -->
+    <section id="diamuertos">
+        <h2>Día de Muertos</h2>
+        <p><strong>El Día de Muertos</strong> es una de las tradiciones más emblemáticas de México.
+        Se celebra los días <strong>1 y 2 de noviembre</strong> para honrar la memoria de los seres queridos que han fallecido.
+        En esta festividad, se colocan <strong>ofrendas</strong> con flores de cempasúchil, velas, fotografías y alimentos
+        que solían gustar a los difuntos. Es una mezcla de costumbres indígenas y creencias católicas,
+        lo que la convierte en una celebración única en el mundo.</p>
+
+        <div>
+            <img src="https://jdr.mx/wp-content/uploads/2021/10/ofrenda_dia_muertos.jpg" alt="Ofrenda Día de Muertos">
+            <img src="https://www.guiasdeviajeanaya.es/imagenes/images/noticias/Dia-muertos-mexico/fiesta-muertos-desfile.jpg" alt="Flores de cempasúchil">
+            <img src="https://www.coralbeachcancunresort.com/wp-content/uploads/2016/10/pan1.png.webp" alt="Calaveras de azúcar">
+        </div>
+    </section>
+
+    <!-- NUEVA SECCIÓN: Lugares Turísticos -->
+    <section id="lugares">
+        <h2>Lugares Turísticos Tradicionales del Día de Muertos</h2>
+        <p>Durante esta festividad, distintos lugares de México se llenan de color, música y tradición. 
+        A continuación, algunos destinos populares donde el <strong>Día de Muertos</strong> se vive de manera especial:</p>
+
+        <ul style="list-style: none; text-align: left; max-width: 800px; margin: 0 auto; line-height: 1.8em;">
+            <li>
+                <strong>Pátzcuaro, Michoacán:</strong> famoso por la celebración en el <a href="https://visitmichoacan.com.mx/patzcuaro/" target="_blank">Lago de Pátzcuaro</a> y la isla de Janitzio. 
+                <br>Costo promedio de entrada a actividades turísticas: <strong>$100–$250 MXN</strong>.
+                <br><img class="lugar-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWLtlCgOKwF_U796WaaRO44UPNvC-M2b0Khw&s" alt="Pátzcuaro Michoacán">
+            </li>
+
+            <li>
+                <strong>Mixquic, Ciudad de México:</strong> una de las celebraciones más tradicionales, con procesiones, velas y altares en el panteón.
+                <br>Entrada general: <strong>gratuita</strong>. Más información en <a href="https://turismo.cdmx.gob.mx/" target="_blank">Turismo CDMX</a>.
+                <br><img class="lugar-img" src="https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2023/10/planes-dia-muertos-carteleracdmx.jpeg?fit=1080%2C602&ssl=1" alt="Mixquic Día de Muertos">
+            </li>
+
+            <li>
+                <strong>Oaxaca de Juárez:</strong> el centro histórico y los panteones se llenan de comparsas, tapetes de arena y arte popular.
+                <br>Visitas guiadas desde <strong>$200 MXN</strong>. Detalles en <a href="https://www.visitmexico.com/" target="_blank">Visit México</a>.
+                <br><img class="lugar-img" src="https://static.wixstatic.com/media/06c4d4_891d11c3bbb249968ea51b18589512fa~mv2.jpeg/v1/fill/w_1024,h_720,al_c/06c4d4_891d11c3bbb249968ea51b18589512fa~mv2.jpeg" alt="Oaxaca Día de Muertos">
+            </li>
+
+            <li>
+                <strong>San Andrés Mixquic, Tláhuac:</strong> uno de los lugares más icónicos donde se celebra la “Alumbrada” la noche del 2 de noviembre.
+                <br>Entrada gratuita, solo se paga transporte o tours (desde <strong>$150 MXN</strong>).
+                <br><img class="lugar-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywmhgu1qkL4RscTz28EcKiuk1EXg4neHjMw&s" alt="San Andrés Mixquic Tláhuac">
+            </li>
+
+            <li>
+                <strong>San Miguel de Allende, Guanajuato:</strong> combina tradición y arte con desfiles de catrinas y eventos culturales.
+                <br>Eventos culturales desde <strong>$100 MXN</strong>. Consulta más en <a href="https://sanmigueldeallende.gob.mx/" target="_blank">Sitio oficial</a>.
+                <br><img class="lugar-img" src="https://www.liderempresarial.com/wp-content/uploads/2021/10/dia-de-muertos-san-miguel-de-allende-2.jpg" alt="San Miguel de Allende Día de Muertos">
+            </li>
+        </ul>
+
+        <p>Estos destinos ofrecen una experiencia única para quienes desean conocer y vivir de cerca la riqueza cultural mexicana 
+        durante el <strong>Día de Muertos</strong>. <a href="#catrina">Regresar al origen de la Catrina</a></p>
+    </section>
+</body>
+</html>
